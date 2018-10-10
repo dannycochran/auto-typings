@@ -1,0 +1,10 @@
+{
+  "name": "auto-typings",
+  "scripts": {
+    "build": "tsc",
+    "postinstall": "cp -r foo node_modules/foo"
+  },
+  "devDependencies": {
+    "typescript": "3.1.2"
+  }
+}
